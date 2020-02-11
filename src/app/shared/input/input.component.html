@@ -1,0 +1,3 @@
+<label [for]="inputID">{{labelText}}</label>
+<input [type]="inputType" [id]='inputID' [ngClass]="getInputClasses()" [readOnly]='isReadOnly' [value]='value'
+    (change)="onInputChange($event)">
